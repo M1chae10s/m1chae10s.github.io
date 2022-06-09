@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.field {
+    width: 500px;
+    height: 500px;
+    margin: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+.excel {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+.snakeBody {
+    background: url(./pic/snake/body.png);
+    background-size: cover;
+    border-radius: 80%;
+}
+.snakeHead {
+    background: url(./pic/snake/head.png);
+    background-size: cover;
+    border-radius: 80%;
+}
+.food {
+    background: url(./pic/snake/food.png);
+    background-size: cover;
+    border-radius: 80%;
+}
